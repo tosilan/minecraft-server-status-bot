@@ -228,7 +228,7 @@ client.on('message', async(message) => {
 		if(command === "online" || command === "on") {
 			let saddress = args[0] || config.serverAddress;
 			let sport = args[1] || config.serverPort;
-			const res = await fetch(`https://mcapi.us/server/status?ip=${saddress}&port=${sport ? `${sport}` : ''}`)
+			const res = await fetch(` https://api.mcsrvstat.us/bedrock/2/${saddress}:{sport ? `${sport}` : ''}`)
 			if(!res) return message.channel.send(`Looks like mcapi.us is not reachable... Please verify it's online and not being blocked!`)
 			const body = await res.json()
 			if(body.status == "success") {
