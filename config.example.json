@@ -1,9 +1,10 @@
 {
-  "token": "**Discord Bot Token**",
+  "token": "MTAxMDg5MTQyNjgzMTI3ODExMA.GL184G.Rszd8rJA6AfdLq19mlOne0u_rsX-A40CDzYcmY
+ ",
   "prefix": "mc!",
-  "serverAddress": "**minecraft server address (ip/hostname)**",
+  "serverAddress": "TAKAOKA00.f5.si",
   "serverPort": "25565",
-  "serverName": "**Server Name**",
+  "serverName": "takumikun tetudou",
   "updateInterval": "1min",
   "showPlayerSample": true,
   "debugMode": true,
